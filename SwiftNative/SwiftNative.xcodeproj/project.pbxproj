@@ -175,7 +175,6 @@
 			buildConfigurationList = 968A00582A1E0C9800C96D05 /* Build configuration list for PBXNativeTarget "SwiftNative" */;
 			buildPhases = (
 				B1CDB069050621A95E3922DF /* [CP] Check Pods Manifest.lock */,
-				968A00612A1E0D2E00C96D05 /* ShellScript */,
 				6D8BACCDCF8FC81B52D06AF6 /* [CP-User] Run Flutter Build flutter_module Script */,
 				968A002A2A1E0C9600C96D05 /* Sources */,
 				968A002B2A1E0C9600C96D05 /* Frameworks */,
@@ -321,23 +320,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
-		};
-		968A00612A1E0D2E00C96D05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed \n";
 		};
 		B0F7DB2E0260AEC3CC37F22C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -627,8 +609,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R2AK7R7W78;
-				FLUTTER_APPLICATION_PATH = /Users/xpzi/flutterMixed/flutter_module;
-				FLUTTER_ROOT = /Users/xpzi/Flutter/flutter3.7.7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftNative/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -658,8 +638,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R2AK7R7W78;
-				FLUTTER_APPLICATION_PATH = /Users/xpzi/flutterMixed/flutter_module;
-				FLUTTER_ROOT = /Users/xpzi/Flutter/flutter3.7.7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftNative/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
